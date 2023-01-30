@@ -1,25 +1,46 @@
 @media screen and (min-width: 1200px) {
-    .container{
-      width: 1200px;
-  
-    }
-    .our-stuff-section {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-    .li-mob {
-      width: calc((100% - 72px) / 4);
-      /* gap:24px; */
-      margin-bottom: 0;
-    }
-    .customers-section {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-    
-    .customers-list {
-      width: calc((100% - 120px) / 6);
-      height: 88px;
-  
-    }
+  .container {
+    width: 1200px;
   }
+  .our-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+    padding-bottom: 120px;
+    margin-bottom: 0;
+  }
+  .working {
+    padding-top: 0;
+    margin-bottom: 72px;
+  }
+  .card-list-index {
+    display: flex;
+    gap: 24px;
+  }
+
+  .our-stuff-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .li-mob {
+    width: calc((100% - 72px) / 4);
+    /* gap:24px; */
+    margin-bottom: 0;
+  }
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+}

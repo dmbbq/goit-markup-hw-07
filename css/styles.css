@@ -118,7 +118,6 @@ p {
 .li-mob {
   display: block;
   width: 100%;
-
 }
 .stuff-soc-list {
   display: flex;
@@ -154,31 +153,21 @@ p {
 /* ---------OUR-WORK---------- */
 
 .our-work {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  /* identical to box height, or 111% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  /* NAVY BLUE */
-  padding-bottom: 120px;
-  margin-bottom: 0;
+  display: none;
 }
+
 .work {
   padding-bottom: 0;
   margin-bottom: 72px;
 }
-.working {
+/* .working {
   padding-top: 0;
   margin-bottom: 72px;
-}
-.card-list-index {
+} */
+/* .card-list-index {
   display: flex;
   gap: 24px;
-}
+} */
 .customers-section {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -203,7 +192,6 @@ p {
 
 .customers-list {
   width: calc((100%-16px) / 2);
-
 
   /* width: calc((100%-120px) / 6); */
   height: 88px;
@@ -234,7 +222,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   row-gap: 72px;
-
 }
 
 .container {
@@ -299,7 +286,6 @@ p {
   color: var(--white-color);
 }
 img {
-
   display: block;
   max-width: 100%;
   width: auto;
@@ -782,8 +768,10 @@ img {
 
 .headlines-section {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 180px;
+  padding-top: 112px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 112px;
   margin: 0 auto;
 }
 .headlines-section {
@@ -800,12 +788,12 @@ img {
 
 .first-headlines {
   font-weight: 600;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   color: var(--white-color);
-  max-width: 494px;
+  max-width: 318px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -981,10 +969,3 @@ img {
 }
 
 /* ------MEDIA--------- */
-
-
-
-
-
-
-

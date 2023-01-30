@@ -2,6 +2,17 @@
   .container {
     width: 768px;
   }
+  .first-headlines {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    color: var(--white-color);
+    max-width: 494px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .our-stuff-section {
     padding-bottom: 104px;
   }
@@ -14,8 +25,8 @@
   }
   .li-mob {
     width: calc((100% - 24px) / 2);
-    gap: 24px;
-    row-gap: 64px;
+    /* gap: 24px; */
+    /* row-gap: 64px; */
     margin-bottom: 0;
   }
 }
