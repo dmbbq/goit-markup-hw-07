@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+    .container{
+      width: 1200px;
+  
+    }
+    .our-stuff-section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .li-mob {
+      width: calc((100% - 72px) / 4);
+      /* gap:24px; */
+      margin-bottom: 0;
+    }
+    .customers-section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    
+    .customers-list {
+      width: calc((100% - 120px) / 6);
+      height: 88px;
+  
+    }
+  }
