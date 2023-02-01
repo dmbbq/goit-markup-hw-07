@@ -157,6 +157,19 @@ p {
 }
 
 .work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+
   padding-bottom: 0;
   margin-bottom: 72px;
 }
@@ -393,18 +406,16 @@ img {
 }
 .paragraphes {
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   /* or 150% */
 
   letter-spacing: 0.02em;
 
-  max-width: 264px;
-
-  width: 264px;
-
   /* SLATE */
+
+  color: #434455;
 }
 .pr {
   margin-right: auto;
@@ -426,27 +437,35 @@ img {
   margin-bottom: 0;
 }
 .skills {
-  margin-top: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+  /* margin-top: 8px; */
   margin-bottom: 8px;
 }
 .our-team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .svg-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
+  display: none;
 }
 
-.list-skills {
-  display: flex;
-  gap: 24px;
-  /* margin-top: 120px; */
-}
+
+/* display: flex; */
+/* gap: 24px; */
+/* margin-top: 120px; */
+
 /* .list-skills-item:nth-child(1)::before {
   content: "";
   display: inline-block;

@@ -1,6 +1,43 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
-    width: 1200px;
+    width: 1158px;
+  }
+  .skills {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: #2e2f42;
+    margin-top: 8px;
+  }
+  .paragraphes{
+    margin: 0;
+    width:264px;
+  }
+  .list-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* row-gap: 0; */
+  }
+  .list-skills-item {
+    width: calc((100% - 72px) / 4);
+    /* margin-bottom: 0; */
+  }
+  .svg-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+  }
+  .our-work {
+    display: block;
   }
   .our-work {
     font-weight: 700;
@@ -13,13 +50,12 @@
     text-transform: capitalize;
 
     /* NAVY BLUE */
+    /* padding-top: 120px; */
+
     padding-bottom: 120px;
     margin-bottom: 0;
   }
-  .working {
-    padding-top: 0;
-    margin-bottom: 72px;
-  }
+
   .card-list-index {
     display: flex;
     gap: 24px;

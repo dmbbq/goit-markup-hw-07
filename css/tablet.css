@@ -13,9 +13,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .our-stuff-section {
-    padding-bottom: 104px;
-  }
   .our-team {
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +20,42 @@
     gap: 24px;
     row-gap: 64px;
   }
+  .skills {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+    /* margin-top: 8px; */
+    margin-bottom: 8px;
+  }
+  .paragraphes{
+    max-width:357px;
+  }
+
+  .list-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    row-gap: 72px;
+    /* row-gap: 0; */
+  }
+  .list-skills-item{
+    width: calc((100% - 24px) / 2);
+
+  }
+
+  .our-stuff-section {
+    padding-bottom: 104px;
+  }
+
   .li-mob {
     width: calc((100% - 24px) / 2);
     /* gap: 24px; */
