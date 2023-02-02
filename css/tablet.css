@@ -2,17 +2,50 @@
   .container {
     width: 768px;
   }
+  /* ______HEADLINE________ */
+  .headlines-section {
+    padding-top: 112px;
+    padding-left: 137px;
+    padding-right: 137px;
+    padding-bottom: 112px;
+    margin: 0 auto;
+    text-align: center;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet-back.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .headlines-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tablet-back-2x.jpg);
+    }
+  }
   .first-headlines {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     color: var(--white-color);
     max-width: 494px;
     margin-left: auto;
     margin-right: auto;
   }
+  /* ______OURTEAM________ */
+
   .our-team {
     display: flex;
     flex-wrap: wrap;
@@ -28,18 +61,18 @@
     text-align: left;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    
+
     /* NAVY BLUE */
-    
-    color: #2E2F42;
+
+    color: #2e2f42;
     /* margin-top: 8px; */
     margin-bottom: 8px;
   }
-  .paragraphes{
-    max-width:357px;
+  .paragraphes {
+    max-width: 357px;
   }
 
-  .list-skills{
+  .list-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,9 +80,8 @@
     row-gap: 72px;
     /* row-gap: 0; */
   }
-  .list-skills-item{
+  .list-skills-item {
     width: calc((100% - 24px) / 2);
-
   }
 
   .our-stuff-section {
@@ -62,8 +94,9 @@
     /* row-gap: 64px; */
     margin-bottom: 0;
   }
+  .customers-list {
+    width: calc((100% - 16px) / 2);
+    height: 88px;
+  }
 }
-.customers-list {
-  width: calc((100% - 16px) / 2);
-  height: 88px;
-}
+

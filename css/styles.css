@@ -461,7 +461,6 @@ img {
   display: none;
 }
 
-
 /* display: flex; */
 /* gap: 24px; */
 /* margin-top: 120px; */
@@ -786,23 +785,35 @@ img {
 }
 
 .headlines-section {
-  text-align: center;
   padding-top: 112px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 54px;
+  padding-right: 56px;
   padding-bottom: 112px;
   margin: 0 auto;
+  text-align: center;
 }
 .headlines-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/mobile-back.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .headlines-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mobile-back-2x.jpg);
+  }
 }
 
 .first-headlines {
@@ -810,7 +821,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   color: var(--white-color);
   max-width: 318px;
   margin-left: auto;

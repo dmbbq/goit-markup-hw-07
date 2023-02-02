@@ -1,6 +1,39 @@
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
+  }
+  /* -------HEADLINE------- */
+  .headlines-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
+    text-align: center;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .headlines-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+  .first-headlines {
+    margin-bottom: 48px;
+    
   }
   .skills {
     font-weight: 600;
@@ -15,9 +48,19 @@
     color: #2e2f42;
     margin-top: 8px;
   }
-  .paragraphes{
+  .paragraphes {
     margin: 0;
-    width:264px;
+    width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: #434455;
   }
   .list-skills {
     display: flex;
