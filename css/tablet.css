@@ -44,6 +44,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* -------list-skills-------- */
+  .list-skills-item{
+    margin-bottom: 0;
+  }
   /* ______OURTEAM________ */
 
   .our-team {

@@ -2,7 +2,9 @@
   .container {
     width: 428px;
   }
- 
+  .list-skills-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
 
   .our-stuff-section {
     padding-top: 96px;
@@ -13,8 +15,4 @@
     /* width: calc((100%-120px) / 6); */
     height: 88px;
   }
-  .list-skills-item:not(:last-child) {
-    margin-bottom: 72px;
-  }
 }
-
