@@ -2,6 +2,11 @@
   .container {
     width: 1158px;
   }
+  .header-tel,.header-mail{
+    font-size: 16px;
+  }
+  
+
   /* -------HEADLINE------- */
   .headlines-section {
     padding-top: 188px;
@@ -19,6 +24,18 @@
     background-position: center;
     background-size: cover;
   }
+  .header-logo,
+.header-link {
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+.container-flex{
+justify-content: space-between
+}
+.item-cont:not(:last-child){
+  margin-right: 40px;
+}
+
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

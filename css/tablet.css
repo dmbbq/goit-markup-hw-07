@@ -2,6 +2,69 @@
   .container {
     width: 768px;
   }
+  .menu-open{
+    display: none;
+  }
+   /* ------header------- */
+   .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .current {
+    color: #404bbf;
+  }
+  .header-link.current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: #404bbf;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+  }
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--secondary-button-color);
+  }
+  .contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* margin-left: auto; */
+    align-items: center;
+  }
+  .header-mail {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+  }
+  .header-mail:hover {
+    color: var(--secondary-button-color);
+  }
+  .header-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  
+    color: var(--secondary-text-color);
+  }
+  .header-tel:hover {
+    color: var(--secondary-button-color);
+  }
   /* ______HEADLINE________ */
   .headlines-section {
     padding-top: 112px;
@@ -16,7 +79,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet-back.jpg);
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,7 +94,10 @@
         ),
         url(../images/tablet-back-2x.jpg);
     }
-  }
+    }
+
+   
+  
   .first-headlines {
     font-weight: 600;
     font-size: 56px;
