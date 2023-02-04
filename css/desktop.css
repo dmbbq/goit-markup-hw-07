@@ -2,10 +2,10 @@
   .container {
     width: 1158px;
   }
-  .header-tel,.header-mail{
+  .header-tel,
+  .header-mail {
     font-size: 16px;
   }
-  
 
   /* -------HEADLINE------- */
   .headlines-section {
@@ -25,17 +25,16 @@
     background-size: cover;
   }
   .header-logo,
-.header-link {
-  padding-top: 24px;
-  padding-bottom: 28px;
-}
-.container-flex{
-justify-content: space-between
-}
-.item-cont:not(:last-child){
-  margin-right: 40px;
-}
-
+  .header-link {
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
+  .container-flex {
+    justify-content: space-between;
+  }
+  .item-cont:not(:last-child) {
+    margin-right: 40px;
+  }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -50,7 +49,6 @@ justify-content: space-between
   }
   .first-headlines {
     margin-bottom: 48px;
-    
   }
   .skills {
     font-weight: 600;
@@ -138,5 +136,25 @@ justify-content: space-between
   .customers-list {
     width: calc((100% - 120px) / 6);
     height: 88px;
+  }
+  .footer > .container {
+    width: 100%;
+    display: flex;
+    width: 1158;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .input-footer {
+    margin-bottom: 0;
+    width: 264px;
+  }
+  .soc-tab {
+    margin: 0;
+  }
+  
+
+  .social-two {
+    margin-left: 120px;
+    margin-bottom: 0;
   }
 }

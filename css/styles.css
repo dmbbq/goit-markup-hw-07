@@ -32,6 +32,9 @@ p {
 .link {
   text-decoration: none;
 }
+.no-scroll{
+  overflow: hidden;
+}
 
 /* card list portfolio */
 .card-list {
@@ -133,6 +136,9 @@ border-radius: 50%;
 
 }
 .mob-menu{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  padding-left: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
   top:0;
@@ -143,10 +149,19 @@ border-radius: 50%;
   height: 100vh;
   background-color:#FFFFFF;
 }
-.mob-menu-list {
+.mob-menu.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+.mob-menu > .container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
-.mob-menu-item:not(:last-child) {
+.mob-menu-item {
   margin-bottom: 40px;
 }
 .mob-menu-link {
@@ -939,11 +954,12 @@ img {
   font-family: Raleway;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 16px;
   /* margin-right: 269px; */
 }
 .footer-content {
+  max-width: 264px;
   margin-bottom: 0;
   font-weight: 400;
 font-size: 16px;
@@ -957,12 +973,12 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 
-.socaial-one {
+.social-one {
   /* margin-right: 120px; */
   padding: 0 60px;
   margin-bottom: 72px;
 }
-.socaial-two{
+.social-two{
   margin-bottom: 72px;
 }
 
@@ -1007,7 +1023,7 @@ color: #E7E9FC;
 }
 .input-footer {
   display: block;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   margin-bottom: 16px;
   padding-left: 16px;
   width: 100%;
@@ -1040,13 +1056,14 @@ color: #E7E9FC;
 }
 
 .button-subscribe {
+  height: 40px;
   display: inline-flex;
   align-items: center;
   padding-left: 24px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 24px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;

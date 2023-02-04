@@ -2,11 +2,12 @@
   .container {
     width: 768px;
   }
-  .menu-open{
+
+  .menu-open {
     display: none;
   }
-   /* ------header------- */
-   .header-list {
+  /* ------header------- */
+  .header-list {
     display: flex;
     gap: 40px;
   }
@@ -36,12 +37,16 @@
   .header-link:focus {
     color: var(--secondary-button-color);
   }
+
   .contacts-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     /* margin-left: auto; */
     align-items: center;
+  }
+  .item_cont {
+    display: inline;
   }
   .header-mail {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -59,7 +64,7 @@
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  
+
     color: var(--secondary-text-color);
   }
   .header-tel:hover {
@@ -94,10 +99,8 @@
         ),
         url(../images/tablet-back-2x.jpg);
     }
-    }
+  }
 
-   
-  
   .first-headlines {
     font-weight: 600;
     font-size: 56px;
@@ -110,7 +113,7 @@
     margin-right: auto;
   }
   /* -------list-skills-------- */
-  .list-skills-item{
+  .list-skills-item {
     margin-bottom: 0;
   }
   /* ______OURTEAM________ */
@@ -167,7 +170,36 @@
     width: calc((100% - 16px) / 2);
     height: 88px;
   }
-  
-  
-}
+  .soc-tab {
+    display: flex;
+  margin-bottom: 72px;
 
+  }
+  .social-one {
+    padding: 0;
+    margin: 0;
+
+  }
+  .social-two {
+    margin-left: 24px;
+
+  }
+  .sub-label{
+    justify-content: flex-start;
+  }
+  .form{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .input-footer{
+    margin-right: 24px;
+    width: 264px;
+  }
+
+
+  .footer > .container {
+    width: 100%;
+    padding-left: 108px;
+    padding-right: 164px;
+  }
+}
