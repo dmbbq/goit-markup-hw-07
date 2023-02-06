@@ -344,6 +344,7 @@ color: #434455;
 .customers {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 16px;
   row-gap: 72px;
   /* column-gap: 16px; */
@@ -963,6 +964,7 @@ img {
   /* margin-right: 269px; */
 }
 .footer-content {
+  max-width: 264px;
   margin-bottom: 0;
   font-weight: 400;
 font-size: 16px;

@@ -158,10 +158,11 @@
   .footer > .container {
     width: 100%;
     display: flex;
+    /* padding: 0; */
     /* padding-left: 0; */
     /* padding-right: 0; */
     padding-left: 156px;
-    /* padding-right: 160px; */
+    padding-right: 159px;
   }
   .input-footer {
     margin-bottom: 0;
