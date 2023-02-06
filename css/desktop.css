@@ -156,14 +156,15 @@
     height: 88px;
   }
   .footer > .container {
-    width: 100%;
+    width: 1158px;
     display: flex;
-    /* padding: 0; */
+    padding: 0;
     /* padding-left: 0; */
     /* padding-right: 0; */
-    padding-left: 156px;
-    padding-right: 159px;
+    /* padding-left: 156px; */
+    /* padding-right: 159px; */
   }
+  
   .input-footer {
     margin-bottom: 0;
     width: 264px;

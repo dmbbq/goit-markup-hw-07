@@ -181,6 +181,7 @@
     width: calc((100% - 16px) / 2);
     height: 88px;
   }
+  
   .soc-tab {
     display: flex;
     margin-bottom: 72px;
