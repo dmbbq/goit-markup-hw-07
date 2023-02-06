@@ -2,6 +2,10 @@
   .container {
     width: 428px;
   }
+/* -------MODAL--------- */
+.modal{
+  width: 392PX;
+}
   .list-skills-item:not(:last-child) {
     margin-bottom: 72px;
   }

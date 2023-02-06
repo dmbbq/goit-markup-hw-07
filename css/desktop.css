@@ -32,6 +32,9 @@
   .container-flex {
     justify-content: space-between;
   }
+  .contacts-list{
+    display: flex;
+  }
   .item-cont:not(:last-child) {
     margin-right: 40px;
   }
@@ -46,9 +49,18 @@
         ),
         url(../images/hero-bg-2x.jpg);
     }
+    
+  }
+  .headlines-section{
+  max-width: 1440px;
+
   }
   .first-headlines {
     margin-bottom: 48px;
+  }
+  .our-team-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .skills {
     font-weight: 600;
@@ -123,10 +135,16 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .our-stuff-section > .container {
+    padding: 0;
+  }
   .li-mob {
     width: calc((100% - 72px) / 4);
     /* gap:24px; */
     margin-bottom: 0;
+  }
+  .customers-section > .container {
+    padding: 0;
   }
   .customers-section {
     padding-top: 120px;
@@ -140,9 +158,10 @@
   .footer > .container {
     width: 100%;
     display: flex;
-    width: 1158;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+    padding-left: 156px;
+    /* padding-right: 160px; */
   }
   .input-footer {
     margin-bottom: 0;
