@@ -252,7 +252,7 @@ color: #434455;
 
 
 .name-stuff {
-  width: 264px;
+  /* width: 264px; */
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -424,9 +424,9 @@ color: #434455;
 }
 img {
   display: block;
-  max-width: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
+  /* width: auto; */
 }
 .visually-hidden {
   position: absolute;
@@ -958,13 +958,13 @@ img {
 .ftr-logo {
   font-family: Raleway;
 
-  display: flex;
-  justify-content: center;
+  display:block;
+  text-align: center;
+  /* justify-content: center; */
   margin-bottom: 16px;
   /* margin-right: 269px; */
 }
 .footer-content {
-  width: 264px;
   margin-bottom: 0;
   font-weight: 400;
 font-size: 16px;
@@ -977,12 +977,11 @@ letter-spacing: 0.02em;
 
 color: #E7E9FC;
 }
-.soc-tab{
-  padding: 0 65px;
 
-}
 
 .social-one {
+  width: 264px;
+margin: 0 auto;
   /* margin-right: 120px; */
   margin-bottom: 72px;
 }
@@ -991,8 +990,8 @@ color: #E7E9FC;
 }
 
 .social-media {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 
   font-weight: 500;
   font-size: 16px;
@@ -1051,9 +1050,8 @@ color: #E7E9FC;
 }
 
 .sub-label {
-  display: flex;
-  justify-content: center;
-
+  display: block;
+text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

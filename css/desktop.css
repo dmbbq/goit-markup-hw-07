@@ -32,7 +32,7 @@
   .container-flex {
     justify-content: space-between;
   }
-  .contacts-list{
+  .contacts-list {
     display: flex;
   }
   .item-cont:not(:last-child) {
@@ -49,16 +49,14 @@
         ),
         url(../images/hero-bg-2x.jpg);
     }
-    
   }
-  .headlines-section{
-  max-width: 1440px;
-
+  .headlines-section {
+    max-width: 1440px;
   }
   .first-headlines {
     margin-bottom: 48px;
   }
-  .our-team-section{
+  .our-team-section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -136,7 +134,8 @@
     padding-bottom: 120px;
   }
   .our-stuff-section > .container {
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .li-mob {
     width: calc((100% - 72px) / 4);
@@ -144,7 +143,8 @@
     margin-bottom: 0;
   }
   .customers-section > .container {
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .customers-section {
     padding-top: 120px;
@@ -158,13 +158,10 @@
   .footer > .container {
     width: 1158px;
     display: flex;
-    padding: 0;
-    /* padding-left: 0; */
-    /* padding-right: 0; */
-    /* padding-left: 156px; */
-    /* padding-right: 159px; */
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  
+
   .input-footer {
     margin-bottom: 0;
     width: 264px;
@@ -172,7 +169,6 @@
   .soc-tab {
     margin: 0;
   }
-  
 
   .social-two {
     margin-left: 120px;
